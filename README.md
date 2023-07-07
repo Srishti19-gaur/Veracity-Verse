@@ -18,7 +18,8 @@ Model and Vectorizer Saving: Finally, both the trained model and the vectorizer 
 
 To use this code for predicting fake and non-fake news, you need to have a dataset containing news articles with corresponding labels indicating whether they are fake or real. The dataset should be in a format similar to the provided DataFrame df, with a "text" column for the news content and a "labels" column for the target variable. You can adjust the test size and random state parameters in train_test_split to control the proportion of data used for testing and the randomness of the split.
 
-The trained model can then be used to predict the authenticity of news articles by transforming the text data with the saved vectorizer (vector.transform()) and feeding it into the pac.predict() method. The model will output the predicted labels ('FAKE' or 'REAL').
+The trained model can then be used to predict the authenticity of news articles by transforming the text data with the saved vectorizer (vector.transform()) and feeding it into the pac.predict() method. The model will output the predicted labels ('FAKE' or 'REAL'). The model has an accuracy of 94.6%.
+
 <img width="948" alt="2" src="https://github.com/Srishti19-gaur/Veracity-Verse/assets/84332258/032de673-3a4f-4fe3-a246-b763d5b8d09f">
 <img width="960" alt="1" src="https://github.com/Srishti19-gaur/Veracity-Verse/assets/84332258/53e53378-456e-481d-94b0-c4cc430590f4">
 <img width="944" alt="3" src="https://github.com/Srishti19-gaur/Veracity-Verse/assets/84332258/16736821-fdf4-464e-9fd8-424ef8323b12">
